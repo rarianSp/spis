@@ -1,0 +1,10 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology> .
+
+<Ivo_Ivic> a schema:Person ;
+    schema:name "Ivo Ivić"@hr ;
+    rico:isOrWasParticipantIn <Spisovodstvo> ;
+    foaf:interest <izlaznost_i_zapošljivost> .
+
