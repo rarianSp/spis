@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:zs="http://docs.oasis-open.org/ns/search-ws/sruResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.7" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-8.xsd">
+  <titleInfo>
+    <title>Koncepti rada s metapodatcima nastalima u procesima digitalizacije</title>
+  </titleInfo>
+  <name type="conference">
+    <namePart>49. savjetovanje hrvatskih arhivista Arhivi i domovinski rat, Plitvice 26.-28. listopada 2016.</namePart>
+  </name>
+  <name type="personal">
+    <namePart>Rajh, Arian.</namePart>
+  </name>
+  <name type="personal">
+    <namePart>Simundza, Zrinka.</namePart>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre authority="marcgt">article</genre>
+  <genre authority="marcgt">conference publication</genre>
+  <originInfo>
+    <place>Plitvice, Hrvatska</place>
+    <publisher>HDA</publisher>
+    <dateIssued>2016</dateIssued>
+  </originInfo>
+  <language>
+    <languageTerm authority="iso639-2b" type="code">hrv</languageTerm>
+  </language>
+  <physicalDescription>
+    <form authority="marcform">print</form>
+    <extent>str. 389-404</extent>
+  </physicalDescription>
+  <identifier type="isbn">978-953-58736-1-7</identifier>
+</mods>
