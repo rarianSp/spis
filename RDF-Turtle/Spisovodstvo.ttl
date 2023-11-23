@@ -1,0 +1,23 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> . 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology> .
+
+<Spisovodstvo> a schema:Course ;
+    a rico:Event ;
+    schema:name "Spisovodstvo"@hr ;
+    
+    rico:resultsOrResultedIn "izlaznost i zapošljivost", "zanima me tema", "termin ili broj ECTS-a", "ostali razlozi upisa kolegija" . 
+
+<izlaznost_i_zapošljivost> a rico:Thing ;
+    rico:resultsOrResultedFrom <Spisovodstvo> .
+
+<zanima_me_tema> a rico:Thing ;
+    rico:resultsOrResultedFrom <Spisovodstvo> .
+
+<termin_ili_broj_ECTS-a> a rico:Thing ;
+    rico:resultsOrResultedFrom <Spisovodstvo> .
+
+<ostali_razlozi_upisa_kolegija> a rico:Thing ;
+    rico:resultsOrResultedFrom <Spisovodstvo> .
+
